@@ -4,7 +4,7 @@ import data from "../utils/Data";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
 
 const Articles = () => {
-  const [it, setIt] = useState(3);
+  const [it, setIt] = useState(0);
 
   return (
     <section className="article-section">
